@@ -1,0 +1,79 @@
+@font-face {
+  font-family: 'NeueMachina-Regular';
+  src: url('fonts/NeueMachina-Regular') format('woff2'),
+    url('fonts/NeueMachina-Regular.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gotham Pro';
+  src: url('fonts/GothamPro-Medium.woff2') format('woff2'),
+    url('fonts/GothamPro-Medium.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Gotham Pro';
+  src: url('fonts/GothamPro-Medium.woff2') format('woff2'),
+    url('fonts/GothamPro-Medium.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+body {
+  background-color: #ffffff;
+  font-family: 'GothamPro-Medium', 'Arial', sans-serif;
+  font-weight: 400;
+}
+.navigation-list {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+/* /* .navigation-list {
+  display: flex;
+  justify-content: flex-start;
+  list-style-type: none;
+}
+.navigation-list > li {
+  margin-left: 24px;
+}
+.logo {
+  align-items: center;
+  color: #000000;
+  font-size: 32px;
+
+  text-decoration: none;
+
+  width: 157px;
+  height: 42px;
+}
+avigation-item {
+  color: #000000;
+  font-size: 15px;
+  text-decoration: none;
+}
+.logo_text {
+  color: blue;
+}
+button {
+  align-items: flex-start;
+  background: #5364ff;
+  border-radius: 300px;
+  border: none;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  font-weight: 700;
+  padding: 10px;
+  width: 163px;
+  height: 40px;
+}
+h1 {
+  font-weight: 700; 
+} */
