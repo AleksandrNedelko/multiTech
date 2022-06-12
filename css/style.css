@@ -1,17 +1,17 @@
 @font-face {
-  font-family: 'OpenSans';
-  src: url('fonts/opensans.woff2') format('woff2'),
-    url('fonts/opensans.woff') format('woff');
-  font-weight: normal;
+  font-family: 'NeueMachina-Regular';
+  src: url('fonts/NeueMachina-Regular') format('woff2'),
+    url('fonts/NeueMachina-Regular.woff') format('woff');
+  font-weight: 700;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'OpenSans';
-  src: url('fonts/opensansbold.woff2') format('woff2'),
-    url('fonts/opensansbold.woff') format('woff');
-  font-weight: 700;
+  font-family: 'Gotham Pro';
+  src: url('fonts/GothamPro-Medium.woff2') format('woff2'),
+    url('fonts/GothamPro-Medium.woff') format('woff');
+  font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
@@ -32,6 +32,9 @@
   justify-content: flex-start;
   list-style-type: none;
 }
-/* .navigation-list > li {
+.navigation-list > li {
   margin-left: 24px;
-} */
+}
+.logo_text {
+  font-size: 160px;
+}
